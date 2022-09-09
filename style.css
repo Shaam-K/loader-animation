@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.loader_screen {
+    height: 100vh;
+    padding: 6px;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.5em;
+    background: #282c34;
+    color: #bbbfc4;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .loader_screen {
+        font-size: 0.4em;
+    }
+  }
